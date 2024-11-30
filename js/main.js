@@ -6,8 +6,14 @@ if(localStorage.getItem("books")!=null){
     displaybook(booklist);
 }
 // !!addbook
+
 function addbook(){
 if(validation(bookmarkName)==true&&validation(bookmarkURL)==true){
+    var existingBookmark = booklist.find(books => books.name.toLowerCase() === bookmarkName.value.toLowerCase());
+    if (existingBookmark) {
+        alert("The name you entered already exists. Please choose another name.");
+        return; 
+    }
     books={
         name:bookmarkName.value,
         url:bookmarkURL.value
