@@ -41,4 +41,23 @@ h2 {
     outline: 0;
     box-shadow: 0 0 0 0.25rem #fec26055;
 }
-  
+.btn-success {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #b5ac49;
+    --bs-btn-border-color: #b5ac49;
+    --bs-btn-hover-color:black;
+    --bs-btn-hover-bg: #fff;
+    --bs-btn-hover-border-color: black;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #b5ac49;
+    --bs-btn-active-border-color: #b5ac49;
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #b5ac49;
+    --bs-btn-disabled-border-color: #b5ac49;
+}
+.btn-danger {
+    --bs-btn-hover-color: black;
+    --bs-btn-hover-bg:#fff;
+    --bs-btn-hover-border-color: black;
+
+}
