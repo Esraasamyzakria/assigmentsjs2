@@ -35,7 +35,7 @@ function displaybook(list){
         </thead>
         <tbody id="tableContent">
             <tr>
-            <td>${i}</td>
+            <td>${i+1}</td>
             <td>${list[i].name}</td>              
             <td>
                 <button class="btn  btn-success" onclick="openURL('${list[i].url}')" >
